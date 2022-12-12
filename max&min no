@@ -1,0 +1,7 @@
+import math
+n=int(input())
+L=list(map(int,input().split()))
+big=max(L)
+small=min(L)
+print('maximum no:',big)
+print('minimum no:',small)
