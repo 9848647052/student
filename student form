@@ -1,0 +1,13 @@
+from tkinter import*
+w=Tk()
+w.title("STUDENT APPLICATION FORM")
+Label(w,text="Enter Name:").grid(row=0)
+Label(w,text="Enter ID:").grid(row=1)
+Label(w,text="Group:").grid(row=2)
+Label(w,text="Father Name:").grid(row=3)
+Label(w,text="Phone Number:").grid(row=4)
+Label(w,text="email Id:").grid(row=5)
+Label(w,text="Adress:").grid(row=6)
+Button(w,text="LOGIN").grid(row=7)
+Button(w,text="SUBMIT").grid(row=7,column=1)
+mainloop()
